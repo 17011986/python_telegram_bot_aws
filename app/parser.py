@@ -72,7 +72,7 @@ class Man:
                             'vin': vin
                         })
 
-            await session.close()            # print(self.cars)
+            await session.close()            
             for value in self.cars:
                     if value.get('cena') <= self.z:
                         self.otch.append(value)
