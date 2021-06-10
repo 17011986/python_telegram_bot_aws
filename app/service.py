@@ -182,18 +182,6 @@ async def god_fin(platform, make, model, code, gn):
     return markup
 
 
-# async def cena(platform, make, model, code, ):
-#     CURRENT_LEVEL = 5
-#     markup = InlineKeyboardMarkup()
-#     markup.row(
-#         InlineKeyboardButton(
-#             text=msg.back,
-#
-#             callback_data=make_callback_data(level=CURRENT_LEVEL - 1,
-#                                              platform=platform,
-#                                              make=make))
-#     )
-#     return markup
 
 
 async def verifi(platform, make, level, model, code, gn, gf, cn, **kwargs):
